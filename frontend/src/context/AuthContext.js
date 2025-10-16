@@ -12,7 +12,7 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   // Set base URL for axios
-  axios.defaults.baseURL = 'http://localhost:5000/api';
+  axios.defaults.baseURL = 'https://pos-system-6jz6.onrender.com/';
 
   useEffect(() => {
     const token = localStorage.getItem('token');
