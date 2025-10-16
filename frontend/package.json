@@ -28,6 +28,12 @@
       "not dead",
       "not op_mini all"
     ],
+    "scripts": {
+  "dev": "next dev",
+  "build": "next build", 
+  "start": "next start",
+  "lint": "next lint"
+},
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
